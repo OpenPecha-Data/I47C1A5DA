@@ -1,105 +1,207 @@
 id: I47C1A5DA
+legacy_id: P007966
+ocr_import_info:
+  bdrc_scan_id: W3CN3381
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-23T06:20:26'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-23T06:29:14+00:00'
-last_modified: '2022-06-09T08:05:44.892088+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T13:35:49.733524+00:00'
+last_modified: 2022-09-03 21:42:04.471648
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W3CN3381
-  title: སྒྲུབ་ཐབས་རིན་པོ་ཆེ་ཀུན་ལས་བཏུས་པ།
-  author: ''
+  id: http://purl.bdrc.io/resource/W3CN3381
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    AF84:
-      image_group_id: I3CN20881
-      title: Volume 1 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 831
-      order: 1
-      base_file: AF84.txt
-    9B90:
-      image_group_id: I3CN20882
-      title: Volume 2 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 838
-      order: 2
-      base_file: 9B90.txt
-    21BF:
-      image_group_id: I3CN20883
-      title: Volume 3 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 787
-      order: 3
-      base_file: 21BF.txt
-    0BA0:
-      image_group_id: I3CN20884
-      title: Volume 4 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 831
-      order: 4
-      base_file: 0BA0.txt
-    94CC:
-      image_group_id: I3CN20885
-      title: Volume 5 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 861
-      order: 5
-      base_file: 94CC.txt
-    2F1A:
-      image_group_id: I3CN20886
-      title: Volume 6 of sgrub thabs rin po che kun las btus pa/
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW3CN3381
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: སྒྲུབ་ཐབས་རིན་པོ་ཆེ་ཀུན་ལས་བཏུས་པ།
+statistics:
+  ocr_word_mean_confidence_index: 0.8807089925001075
+  ocr_word_median_confidence_index: 0.9700000286102295
+quality: null
+bases:
+  I3CN20886:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20886
       total_pages: 833
-      order: 6
-      base_file: 2F1A.txt
-    '9293':
-      image_group_id: I3CN20887
-      title: Volume 7 of sgrub thabs rin po che kun las btus pa/
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I3CN20886.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.8298850787880269
+    legacy_id: v006
+  I3CN20887:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20887
       total_pages: 915
-      order: 7
-      base_file: 9293.txt
-    B742:
-      image_group_id: I3CN20888
-      title: Volume 8 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 827
-      order: 8
-      base_file: B742.txt
-    A942:
-      image_group_id: I3CN20889
-      title: Volume 9 of sgrub thabs rin po che kun las btus pa/
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I3CN20887.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.9032568040698932
+    legacy_id: v007
+  I3CN20881:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20881
       total_pages: 831
-      order: 9
-      base_file: A942.txt
-    7DAB:
-      image_group_id: I3CN20890
-      title: Volume 10 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 847
-      order: 10
-      base_file: 7DAB.txt
-    948B:
-      image_group_id: I3CN20891
-      title: Volume 11 of sgrub thabs rin po che kun las btus pa/
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I3CN20881.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.8467013435231896
+    legacy_id: v001
+  I3CN20883:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20883
+      total_pages: 787
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I3CN20883.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9064044272932943
+    legacy_id: v003
+  I3CN20882:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20882
+      total_pages: 838
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I3CN20882.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.8566688074439166
+    legacy_id: v002
+  I3CN20891:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20891
       total_pages: 855
-      order: 11
-      base_file: 948B.txt
-    '6688':
-      image_group_id: I3CN20892
-      title: Volume 12 of sgrub thabs rin po che kun las btus pa/
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I3CN20891.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.88001745000432
+    legacy_id: v011
+  I3CN20892:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20892
       total_pages: 1035
-      order: 12
-      base_file: 6688.txt
-    97ED:
-      image_group_id: I3CN20893
-      title: Volume 13 of sgrub thabs rin po che kun las btus pa/
-      total_pages: 1051
-      order: 13
-      base_file: 97ED.txt
-    0FB3:
-      image_group_id: I3CN20894
-      title: Volume 14 of sgrub thabs rin po che kun las btus pa/
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I3CN20892.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9198242734381633
+    legacy_id: v012
+  I3CN20894:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20894
       total_pages: 837
-      order: 14
-      base_file: 0FB3.txt
-statistics: {}
-quality: {}
+      volume_number: 14
+      volume_pages_bdrc_intro: 2
+    order: 14
+    base_file: I3CN20894.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.8432642848378793
+    legacy_id: v014
+  I3CN20888:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20888
+      total_pages: 827
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I3CN20888.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.861855525508035
+    legacy_id: v008
+  I3CN20890:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20890
+      total_pages: 847
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I3CN20890.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.8642972496938895
+    legacy_id: v010
+  I3CN20893:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20893
+      total_pages: 1051
+      volume_number: 13
+      volume_pages_bdrc_intro: 2
+    order: 13
+    base_file: I3CN20893.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.9072068168754068
+    legacy_id: v013
+  I3CN20885:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20885
+      total_pages: 861
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I3CN20885.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9131127809766879
+    legacy_id: v005
+  I3CN20884:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20884
+      total_pages: 831
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I3CN20884.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.9052333522629764
+    legacy_id: v004
+  I3CN20889:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN20889
+      total_pages: 831
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I3CN20889.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9700000286102295
+      ocr_word_mean_confidence_index: 0.9094602575201554
+    legacy_id: v009
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
